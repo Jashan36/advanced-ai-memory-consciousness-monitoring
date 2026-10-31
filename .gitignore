@@ -1,0 +1,34 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime data, logs, and test outputs
+logs/
+test_output/
+test_results.json
+*_storage/
+component_check/
+debug_activation/
+demo_results/
+test_imports/
+viz_test/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Generated model weights and backups
+*_checkpoints/
+*.pt
+*.pth
+*.pkl
+
+# Generated visualizations
+advanced_ai_visualizations/
+memory_visualizations/
+*.png
+
+# VS Code task created for local publishing
+.vscode/tasks.json
