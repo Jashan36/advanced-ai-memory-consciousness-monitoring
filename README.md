@@ -21,7 +21,7 @@ Optional integrations (such as Transformers, FAISS, and scikit-learn) are used w
 - PyTorch and NumPy for the core system
 - Pandas, Matplotlib, and Seaborn for visualization
 
-Install the project's dependencies:
+Create a virtual environment:
 
 ```bash
 python -m venv .venv
