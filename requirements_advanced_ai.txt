@@ -2,12 +2,6 @@
 numpy>=1.21.0
 torch>=1.9.0
 
-# Optional model, embedding, and similarity-search integrations
-transformers>=4.20.0
-sentence-transformers>=2.2.0
-faiss-cpu>=1.7.0
-scikit-learn>=1.0.0
-
 # Visualization
 pandas>=1.3.0
 matplotlib>=3.5.0

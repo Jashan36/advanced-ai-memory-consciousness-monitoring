@@ -46,6 +46,16 @@ python -m pip install -r requirements_advanced_ai.txt
 
 PyTorch installation can vary by operating system and CPU/GPU setup. If the command above cannot find a compatible PyTorch build, install PyTorch using the instructions at [pytorch.org](https://pytorch.org/get-started/locally/) and then install the remaining requirements.
 
+### Optional integrations
+
+The core system can run without the optional model and similarity-search integrations. Install the libraries you need:
+
+```bash
+python -m pip install transformers sentence-transformers scikit-learn
+```
+
+FAISS is optional and its available wheels depend on your operating system and Python version. Install `faiss-cpu` only if a compatible build is available for your environment; the project has fallback behavior when FAISS is unavailable.
+
 ## Quick start
 
 Run the built-in demonstration:
