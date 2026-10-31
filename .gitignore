@@ -29,6 +29,8 @@ viz_test/
 advanced_ai_visualizations/
 memory_visualizations/
 *.png
+!docs/screenshots/
+!docs/screenshots/*.png
 
 # VS Code task created for local publishing
 .vscode/tasks.json
